@@ -1,0 +1,48 @@
+--                                                                {{{1
+
+File        : README
+Maintainer  : Felix C. Stegerman <flx@obfusk.net>
+Date        : 2012-07-30
+
+Copyright   : Copyright (C) 2012  Felix C. Stegerman
+
+--                                                                }}}1
+
+=== Description ===                                               {{{1
+
+  obfusk (Felix C. Stegerman)'s homebrew tap.
+
+  See http://mxcl.github.com/homebrew/.
+                                                                  }}}1
+
+=== Usage ===                                                     {{{1
+
+  Get it at https://github.com/obfusk/homebrew-tap.
+
+  $ brew tap obfusk/tap
+
+
+  === Formulae ===
+
+    $ brew install fatsort        # http://fatsort.sourceforge.net
+
+    $ brew install mgit           # https://github.com/obfusk/mgit
+
+    $ brew install wxmac-obfusk   # http://www.wxwidgets.org
+    # See also https://github.com/mxcl/homebrew/pull/13769
+                                                                  }}}1
+
+=== License ===                                                   {{{1
+
+  GPLv2 [1].
+                                                                  }}}1
+
+=== References ===                                                {{{1
+
+  [1] GNU General Public License, version 2
+      http://www.opensource.org/licenses/GPL-2.0
+                                                                  }}}1
+
+--
+
+vim: set tw=70 sw=2 sts=2 et fdm=marker :
