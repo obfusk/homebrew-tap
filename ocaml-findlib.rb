@@ -16,11 +16,18 @@ class OcamlFindlib < Formula
     inreplace 'findlib.conf.in',
       '@SITELIB@', HOMEBREW_PREFIX+'lib/ocaml/site-lib'
 
-    system './configure', '-bindir', bin, '-mandir', man,
-                          '-sitelib', lib+'ocaml/site-lib',
-                          '-config', prefix+'etc/findlib.conf'
+    args = [
+      '-bindir', bin,
+      '-mandir', man,
+      '-sitelib', lib+'ocaml/site-lib',
+      '-config', prefix+'etc/findlib.conf',
+      '-no-topfind'
+    ]
 
+    system './configure', *args
     system 'make all opt'
     system 'make install'
+
+    (lib+'ocaml').install 'src/findlib/topfind'
   end
 end
