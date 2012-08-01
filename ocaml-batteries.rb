@@ -13,8 +13,7 @@ class OcamlBatteries < Formula
   skip_clean :all
 
   def install
-    # ENV['DOCROOT'] = doc  # needed by: make doc
-
+    ENV['DOCROOT'] = doc
     ENV['OCAMLFIND_DESTDIR'] = lib+'ocaml/site-lib'
     ENV.deparallelize
 
@@ -22,6 +21,9 @@ class OcamlBatteries < Formula
 
     system 'make all'
     system 'make install'
+
+    system 'make doc'
+    system 'make install-doc'
   end
 
   def caveats
