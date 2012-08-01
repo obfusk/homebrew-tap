@@ -22,31 +22,31 @@ Copyright   : Copyright (C) 2012  Felix C. Stegerman
 
   $ brew tap obfusk/tap           # or: obfusk/devtap
   $ brew install <formula>
+                                                                  }}}1
+
+=== Formulae ===                                                  {{{1
+
+  === My projects ===
+
+    * mgit                  https://github.com/obfusk/mgit
 
 
-  === Formulae ===
+  === OCaml ===
 
-    === My projects ===
-
-      * mgit                      https://github.com/obfusk/mgit
-
-
-    === OCaml ===
-
-      * ocaml-batteries [TODO]    http://batteries.forge.ocamlcore.org
-      * ocaml-camomile [TODO]     http://camomile.sourceforge.net
-      * ocaml-findlib             http://projects.camlcity.org/projects/findlib.html
+    * ocaml-batteries       http://batteries.forge.ocamlcore.org
+    * ocaml-camomile        http://camomile.sourceforge.net
+    * ocaml-findlib         http://projects.camlcity.org/projects/findlib.html
 
 
-    === Bug fixes ===
+  === Bug fixes ===
 
-      * wxmac-obfusk              http://www.wxwidgets.org
-      # See https://github.com/mxcl/homebrew/pull/13769
+    * wxmac-obfusk          http://www.wxwidgets.org
+                            https://github.com/mxcl/homebrew/pull/13769
 
 
-    === Obscure ===
+  === Miscellaneous ===
 
-      * fatsort                   http://fatsort.sourceforge.net
+    * fatsort               http://fatsort.sourceforge.net
                                                                   }}}1
 
 === License ===                                                   {{{1
