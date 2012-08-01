@@ -13,8 +13,9 @@ class OcamlBatteries < Formula
   skip_clean :all
 
   def install
-    ENV['DOCROOT'] = doc
-    ENV['OCAMLFIND_DESTDIR'] = lib+'ocaml/site-lib'
+    ENV['BROWSER_COMMAND']    = 'open'   # !?
+    ENV['DOCROOT']            = doc
+    ENV['OCAMLFIND_DESTDIR']  = lib+'ocaml/site-lib'
     ENV.deparallelize
 
     (lib+'ocaml/site-lib').mkpath
