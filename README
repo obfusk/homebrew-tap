@@ -2,7 +2,7 @@
 
 File        : README
 Maintainer  : Felix C. Stegerman <flx@obfusk.net>
-Date        : 2012-07-30
+Date        : 2012-08-01
 
 Copyright   : Copyright (C) 2012  Felix C. Stegerman
 
@@ -17,19 +17,36 @@ Copyright   : Copyright (C) 2012  Felix C. Stegerman
 
 === Usage ===                                                     {{{1
 
-  Get it at https://github.com/obfusk/homebrew-tap.
+  Get it at https://github.com/obfusk/homebrew-tap,
+            https://github.com/obfusk/homebrew-devtap.
 
-  $ brew tap obfusk/tap
+  $ brew tap obfusk/tap           # or: obfusk/devtap
+  $ brew install <formula>
 
 
   === Formulae ===
 
-    $ brew install fatsort        # http://fatsort.sourceforge.net
+    === My projects ===
 
-    $ brew install mgit           # https://github.com/obfusk/mgit
+      * mgit                      https://github.com/obfusk/mgit
 
-    $ brew install wxmac-obfusk   # http://www.wxwidgets.org
-    # See also https://github.com/mxcl/homebrew/pull/13769
+
+    === OCaml ===
+
+      * ocaml-batteries [TODO]    http://batteries.forge.ocamlcore.org
+      * ocaml-camomile [TODO]     http://camomile.sourceforge.net
+      * ocaml-findlib             http://projects.camlcity.org/projects/findlib.html
+
+
+    === Bug fixes ===
+
+      * wxmac-obfusk              http://www.wxwidgets.org
+      # See https://github.com/mxcl/homebrew/pull/13769
+
+
+    === Obscure ===
+
+      * fatsort                   http://fatsort.sourceforge.net
                                                                   }}}1
 
 === License ===                                                   {{{1
