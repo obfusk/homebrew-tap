@@ -2,7 +2,7 @@ require 'formula'
 
 class OcamlCamomile < Formula
   homepage 'http://camomile.sourceforge.net'
-  url 'http://prdownloads.sourceforge.net/camomile/camomile-0.8.3.tar.bz2'
+  url 'http://sourceforge.net/projects/camomile/files/camomile/0.8.3/camomile-0.8.3.tar.bz2'
   sha1 '9f2600010820689805b5ab6e4048217ea821d535'
 
   depends_on 'objective-caml'
