@@ -26,7 +26,7 @@ class JsOfOcaml < Formula
     system 'make', 'install', "BINDIR=#{bin}", 'BEST=opt'
 
     (doc+'html').mkpath
-    (doc+'html').install 'api-html' => 'api'
+    (doc+'html').install 'doc/api-html' => 'api'
 
     doc.install 'examples'
   end
